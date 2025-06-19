@@ -86,12 +86,8 @@ pip install jupyterlab ipykernel rich tqdm
 pip install numpy pandas matplotlib seaborn scikit-learn datasets
 
 # Optional Training Tools
-pip install lightning tensorboard wandb
+pip install tensorboard
 
-# Image & NLP Utilities
-pip install albumentations opencv-python pillow
-pip install nltk spacy
-python -m nltk.downloader all
 ```
 
 ---
