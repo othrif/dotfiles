@@ -53,6 +53,7 @@ exec zsh
 ## 🐍 4. Install Python Versions
 
 ```bash
+pyenv install --list                    # See all available versions
 pyenv install 3.12.10                   # Latest stable
 pyenv virtualenv 3.12.10 base           # Base dev environment
 pyenv global 3.12.10                    # Set global default
@@ -153,6 +154,7 @@ myproject/
 
 | Action                     | Command                                      |
 |----------------------------|-----------------------------------------------|
+| List all possible versions | `pyenv install --list`                        |
 | List all Python versions   | `pyenv versions`                             |
 | Install new Python         | `pyenv install 3.x.x`                        |
 | Create virtualenv          | `pyenv virtualenv 3.x.x my-env`             |
